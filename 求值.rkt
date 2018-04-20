@@ -1,0 +1,11 @@
+#lang planet neil/sicp
+(define (f n)(+ (/ n 3) 2))
+(define (a n)(+ (* n n) 10))
+(define (b n)(+ (* 0.5 (* n n)) 20))
+(define (c n)(- (/ 1 n)))
+(f 2)
+(f 5)
+(f 9)
+(a 2)
+(b 5)
+(c 9)
